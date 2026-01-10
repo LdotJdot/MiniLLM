@@ -1,0 +1,22 @@
+{
+  "contextLen": 128,
+  "batchSize": 16,
+  "seqLen": 128,
+  "numEpochs": 1,
+  "learningRate": 0.0005,
+  "verbose": 50,
+  "checkPointSaveAfterEpochNum": 1,
+  "checkPointSaveAfterEpochPeriod": false,
+  "pretrainPath": "D:\\Data\\Personal\\AI\\llm\\pretrain_hq_encoded.txt",
+  "sftPath": "D:\\Data\\Personal\\AI\\llm\\sft_mini_512.jsonl",
+  "tokenizerPath": "D:\\Data\\Personal\\AI\\llm\\tokenizer\\minimind_tokenizer.txt",
+  "promptForTestAfterEpochPeriodText": "<|im_start|>user 中国的首都在哪<|im_end|>",
+  "loadCurrentModel": "lora_minillm_model_epoch_checkPoint_202601051930_sft.pt",
+  "loraCheckPointModel": "lora_minillm_model_epoch_checkPoint.pt",
+  "checkPointModel": "minillm_model_epoch_checkPoint.pt",
+  "saveCurrentModel": "",
+  "modelSize": "n",
+  "workerNumber": 1,
+  "loraRank": 64,
+  "loraAlpha": 64
+}

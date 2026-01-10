@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="DataTreatment/DataTreatment.csproj" Id="8f5b9acc-3970-40d4-8a6a-c43f7a54bbaf" />
+  <Project Path="MINILLM_Completion/MINILLM_Completion.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>
